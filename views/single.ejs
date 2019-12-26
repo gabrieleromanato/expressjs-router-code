@@ -1,0 +1,18 @@
+<%- include('header') %>
+
+<article class="container single mt-5">
+
+    <header>
+        <h1><%= post.title %></h1>
+        <time><%= post.date %></time>
+        <div><%= post.excerpt %></div>
+    </header>
+
+    <div class="single-content">
+        <%- post.content %>
+    </div>
+
+</article>
+
+
+<%- include('footer') %>

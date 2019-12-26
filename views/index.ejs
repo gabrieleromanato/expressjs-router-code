@@ -1,0 +1,13 @@
+<%- include('header') %>
+
+<div class="container mt-5">
+
+<div class="row">
+    <% posts.forEach(post => { %>  <%- include('post', {post: post}); %> <% }); %>
+</div>
+
+
+</div>
+
+
+<%- include('footer') %>
